@@ -21,13 +21,6 @@ Together, they form a **lightweight, dependency-free framework** for managing me
 
 ---
 
-## 📂 Repository Structure
-```
-/docs          — full paper, DSL specs, diagrams  
-/src           — lethe_min.py, lethe_min_v2.py, lethe_cli.py  
-/examples      — example.lethe, example_v2.lethe, example_v3.lethe  
-/notebooks     — (optional) Jupyter/Colab tutorials  
-```
 
 ---
 
