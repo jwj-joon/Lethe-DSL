@@ -82,7 +82,7 @@ retrieval {
 
 ## 🛡️ License
 - **Academic & Nonprofit Use**: Free under [LICENSE-ACADEMIC](LICENSE-ACADEMIC.md)  
-- **Commercial Use**: Requires a paid license. Contact author for royalty terms. See [LICENSE-COMMERCIAL](LICENSE-COMMERCIAL.md).  
+- **Commercial Use**: Requires a paid license. See [LICENSE-COMMERCIAL](LICENSE-COMMERCIAL.md).  
 
 > Contact: dnjswns11228@gmail.com
 
