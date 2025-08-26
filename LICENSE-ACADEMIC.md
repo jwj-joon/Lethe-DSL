@@ -11,7 +11,7 @@ of the Software, subject to the following conditions:
    in all copies or substantial portions of the Software.
 
 2. Academic and nonprofit users must provide proper citation of the original work:
-   ```
+
    @misc{jung2025lethe,
      author       = {Wonjun Jung},
      title        = {Lethe & Mnemosyne: Lightweight DSL for Emotional Memory and Forgetting},
@@ -19,7 +19,6 @@ of the Software, subject to the following conditions:
      howpublished = {GitHub},
      url          = {https://github.com/jwj-joon/Lethe-Mnemosyne}
    }
-   ```
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
