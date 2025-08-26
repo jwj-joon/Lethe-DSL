@@ -1,0 +1,6 @@
+# Lethe DSL Example: emotional memory control rules
+
+decay(topic="regret", lambda=0.3, floor=0.1)
+expire(keyword="suicidal_thoughts", after="30d")
+pin(topic="family", priority=1.0)
+boost(keyword="hope", factor=1.5)

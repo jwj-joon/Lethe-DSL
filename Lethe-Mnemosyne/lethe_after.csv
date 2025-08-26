@@ -1,0 +1,6 @@
+id,topic,emotion,tags,weight,score,text
+5,social,gratitude,support-thread,0.4,0.872,Support message from a friend reduced stress.
+2,research,gratitude,support-thread,0.4,0.436,Advisor praised the draft; felt gratitude and motivation.
+3,health,joy,routine,0.3403,0.3676,Went for a 30-minute run; felt joy afterwards.
+1,ex-relationship,sadness,sensitive,0.1,0.103,Talked about ex-relationship and felt overwhelmed.
+4,environment,neutral,cue,0.05,0.0535,Noted cafe as a good quiet place for writing.

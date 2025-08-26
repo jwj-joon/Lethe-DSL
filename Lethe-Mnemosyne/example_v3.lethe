@@ -1,0 +1,17 @@
+# Lethe+ 예제 DSL (v3) — 바로 사용 가능
+# 안전 & 위생
+expire tag:"suicidal_thoughts" after:30d action:shield
+expire keyword:"credit card number" after:24h action:remove
+pin topic:"family" priority:1.0
+
+# 신뢰도 기반 차단
+rule on trust < 0.4 -> forget topic:"ex-relationship"
+
+# 이벤트 기반 강화 (러닝어웨이 방지: cap + cooldown)
+rule on event == "milestone" with E=gratitude -> reinforce tag:"support-thread" by 0.2 cap:0.8 cooldown:24h
+
+# 검색 설정
+retrieval {
+  topk:7
+  synonyms support-thread=["check-in","mentor","encourage"]
+}

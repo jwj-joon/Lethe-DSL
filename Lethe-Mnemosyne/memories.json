@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "content": "I regret not talking to my brother.",
+    "tags": [
+      "regret",
+      "family"
+    ],
+    "timestamp": "2025-01-01"
+  },
+  {
+    "id": 2,
+    "content": "I once thought about ending my life.",
+    "tags": [
+      "suicidal_thoughts"
+    ],
+    "timestamp": "2025-02-10"
+  },
+  {
+    "id": 3,
+    "content": "I felt supported when my grandmother cooked for me.",
+    "tags": [
+      "family",
+      "hope"
+    ],
+    "timestamp": "2025-03-05"
+  },
+  {
+    "id": 4,
+    "content": "Running outside gave me clarity and calm.",
+    "tags": [
+      "hope"
+    ],
+    "timestamp": "2025-03-20"
+  },
+  {
+    "id": 5,
+    "content": "Confusion during classes made me frustrated.",
+    "tags": [
+      "regret"
+    ],
+    "timestamp": "2025-04-01"
+  }
+]

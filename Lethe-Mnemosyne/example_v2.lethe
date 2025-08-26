@@ -1,0 +1,17 @@
+# Lethe DSL v2 — multi-kernel emotions + interference + rules
+
+# emotions with different forgetting kernels
+emotion sadness  { lambda=0.35, floor=0.10, decay="power_law", k=1.2 }
+emotion anxiety  { lambda=0.50, floor=0.05, decay="sigmoid",   k=0.8, t0=5 }
+emotion calm     { lambda=0.08, floor=0.20, decay="exponential" }
+emotion gratitude{ lambda=0.05, floor=0.20, decay="tanh",      k=0.3, t0=7 }
+
+# optional interference: newest memory attenuates older similar ones
+interference { match="topic", alpha=0.12 }
+
+# rules
+rule on trust < 0.4 -> forget topic:"ex-relationship" keep_log:true
+rule on event == "milestone" with E=gratitude -> reinforce tag:"support-thread" by 0.2
+
+# retrieval policy (min build uses topk only)
+retrieval { gate: E-weighted, topk: 5 }
