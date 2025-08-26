@@ -97,7 +97,7 @@ If you use Lethe/Mnemosyne in research, please cite:
   title        = {Lethe & Mnemosyne: Lightweight DSL for Emotional Memory and Forgetting},
   year         = {2025},
   howpublished = {GitHub},
-  url          = {https://https://github.com/jwj-joon/Lethe-Mnemosyne}
+  url          = {https://github.com/jwj-joon/Lethe-Mnemosyne}
 }
 ```
 
